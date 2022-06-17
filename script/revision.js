@@ -760,4 +760,168 @@ const areaOfTriangle = {
 };
 console.log(`Answer: ${1/2 * 12 *23} is area of triange.`);
 /*********************************************************************/
+function gfg() {  
+    let PMarks = 40 
+    let result = (PMarks > 39)? 
+        "Pass":"Fail"; 
+  
+    document.write(result); 
+    }  
+    gfg();  
 
+/********************************************************************/
+function Test()
+
+  {  let marks = 95;
+
+  let result = (marks < 40) ? "Unsatisfactory" : (marks < 60) ? "Average" : (marks < 80) ? "Good" : "Excellent" ;
+
+    console.log(result);
+
+}
+
+Test();
+
+/***************************************************************** */
+const array =['oranges','guavas', 'bananas'];
+
+array[1];
+console.log(array[1]);
+/****************************************************************** */
+let arr = [1,2,3];
+let arr2 = [4,5];
+console.log(result=[...arr, ...arr2]);
+/****************************************** */
+// x = 10;
+// y = 5;
+// alert(x > y);
+// console.log(alert);
+/******************************* */
+let z=6, k=9;
+
+result=z+k;
+
+k=result-k;
+
+z=result-k;
+console.log(z, k);
+//9,6
+/***************************************** */
+x=5;
+if (x>2){
+
+console.log(x +" is greater than 2")
+
+}else
+
+{
+
+console.log(x + " is less than 2")
+
+};
+/********* */
+let mark=5;
+
+let result2=mark>5 ? "weak":"strong";
+console.log(result2);
+/*************** */
+let a=1;
+if(a>10)
+{  
+    document.write(10);  
+} 
+else
+{
+    document.write(a);  
+}
+console.log(a);
+/********* */
+let accessAllowed;
+let age = 12;
+
+if (age > 18) {
+  accessAllowed = true;
+} else {
+  accessAllowed = false;
+}
+console.log(accessAllowed);
+/** */
+function testNum(a) {
+    let result;
+    if (a > 0) {
+      result = 'positive';
+    } else {
+      result = 'NOT positive';
+    }
+    return result;
+  }
+  
+  console.log(testNum(-5));
+  /********************* */
+//   let ages_1 = 20, ages_2='20';
+// if(ages_1 === ages_2){
+//   alert('same');
+// }
+// else{ alert('not same');}
+/************************* */
+// let our_ages = 22;
+// if(our_ages < 18 ){
+//   alert('Too Young.');
+// }else if( our_ages > 18 && our_ages < 60){
+//   alert('You..qualify');
+// }else{
+//   alert('you are too senior');
+// }
+/********************* */
+// let i = 10;
+//   if (i == 10) {
+//     if (i < 15)
+//     document.write(i + " is smaller than 15");
+//     if (i < 12)
+//     document.write(i +" is smaller than 12 too");
+//   else
+//     document.write(i + " is greater than 15");
+// }
+/** */
+// let i ;
+
+// if (i == 10)
+
+// document.write("i is 10");
+
+// else if (i == 15)
+
+// document.write("i is 15");
+
+// else if (i == 20)
+
+// document.write("i is 20");
+
+// else
+
+// document.write(typeof(i));
+/************************* */
+// let book = "maths";
+//             if( book == "history" ) {
+//                document.write("<b>History Book</b>");
+//             } else if( book == "maths" ) {
+//                document.write("<b>Maths Book</b>");
+//             } else if( book == "economics" ) {
+//                document.write("<b>Economics Book</b>");
+//             } else {
+//                document.write("<b>Unknown Book</b>");
+//             }
+/******************************** */
+// var v = 'letsfind';
+// var b = 'course';
+// var c = v/b;
+// document.write(c);
+/******** */
+// var d = 1;
+// document.write(d--);
+// document.write(d);
+/*********** */
+// var ac = 10;
+// if(ac == ac++)
+// document.write(ac);
+/******* */
